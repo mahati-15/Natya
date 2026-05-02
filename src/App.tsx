@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <h1>Natya</h1>
+    <h1>CAMERA</h1>
 
     //make the camera work
     //implement hand tracking
