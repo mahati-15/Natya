@@ -12,18 +12,20 @@ function App() {
          video:{width: 500, height: 500}
       })
       .then(stream => {
-         let video = videoRef.current;
+         const video = videoRef.current;
+         if(video) {
             video.srcObject = stream;
             video.play();
+         }
       })
       .catch(err =>{
          console.error(err);
-      })
+      });
    }
 
    useEffect(() => {
-      getVideo;
-   }, [videoRef])
+      getVideo();
+   }, []);
 
 
    //
@@ -35,7 +37,10 @@ function App() {
 
 			{/* make the camera work (useRef REACT HOOK) */}
 			<div className="camera">
-				<video ref={videoRef}></video>
+				<video
+               ref={videoRef}
+               style={{ transform: "scaleX(-1)" }}
+            />
 			</div>
 		</div>
 	)
