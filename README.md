@@ -36,9 +36,9 @@ Currently building rontent with React + TypeScript, webcam integration, hand-lan
 - [ ] Display landmark coordinates
 
 #### Single Mudra Detection
-- [ ] Define landmark rules for one mudra
-- [ ] Compare user hand positions against reference
-- [ ] Provide visual feedback
+- [ ] Set landmark rules for one mudra
+- [ ] Compare user hand positions against reference position
+- [ ] Provide visual feedback to user
 
 #### Full Mudra Library
 - [ ] Support all single-hand mudras
@@ -51,7 +51,7 @@ Currently building rontent with React + TypeScript, webcam integration, hand-lan
 
 #### Practice Mode
 - [ ] Mudra flashcards
-- [ ] Timed recognition exercises
+- [ ] Recognition exercises
 - [ ] Accuracy tracking
 
 #### Progress Tracking
@@ -65,7 +65,7 @@ Currently building rontent with React + TypeScript, webcam integration, hand-lan
 
 #### Instructor Tools
 - [ ] Upload choreography videos
-- [ ] Tag key poses and transitions
+- [ ] Analyze key poses and transitions
 - [ ] Generate practice sequences
 
 #### Student Experience
