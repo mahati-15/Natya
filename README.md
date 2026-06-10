@@ -10,7 +10,7 @@ The long-term vision is to create an interactive online dance-learning platform 
 The web application will include real-time mudra recognition with hand tracking and visual feedback, guided lessons for Bharatanatyam Level Exams, quiz-style practice and progress tracking, and choreography learning through instructor-uploaded videos with movement comparison and automatic correction. Users will also be able to track their progress and receive personalized recommendations for improvement.
 
 ### Current Status
-Currently building rontent with React + TypeScript, webcam integration, hand-landmark detection, and basic mudra recognition.
+Currently working on frontend with React + TypeScript, webcam integration, hand-landmark detection, and basic mudra recognition.
 
 ---
 
