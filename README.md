@@ -1,30 +1,51 @@
-# Natya - Ongoing
+# Natya
 
-Natya is a web application that helps users learn Bharatanatyam through real-time computer vision feedback.
+![Status ](https://img.shields.io/badge/Status-In%20Development-red)
+![React ](https://img.shields.io/badge/React-19-blue)
+![TypeScript ](https://img.shields.io/badge/TypeScript-blue)
+![MediaPipe ](https://img.shields.io/badge/MediaPipe-Computer%20Vision-green)
 
-Traditional online dance instruction often relies on videos, Zoom classes, or recorded choreography, making it difficult for students (particularily beginners) to know whether they are performing movements correctly. Natya aims to bridge this gap by using a webcam to analyze a dancer's movements and provide immediate visual feedback.
+## 💃 Description
 
-The long-term vision is to create an interactive online dance-learning platform where instructors can upload choreography and students can practice independently while receiving corrections on posture, mudras (hand gestures), and movement accuracy.
+Natya is a computer vision-powered web application that helps users learn Bharatanatyam through real-time movement analysis and feedback.
 
-### Features  -  ***Planned***
-The web application will include real-time mudra recognition with hand tracking and visual feedback, guided lessons for Bharatanatyam Level Exams, quiz-style practice and progress tracking, and choreography learning through instructor-uploaded videos with movement comparison and automatic correction. Users will also be able to track their progress and receive personalized recommendations for improvement.
+As a Bharatanatyam dancer, I often found it difficult to learn choreography from videos shared in group chats or virtual classes. It was easy to mirror movements incorrectly, miss small details, or practice mistakes without realizing it. Natya aims to bridge this gap by using a webcam to analyze a dancer's movements and provide immediate visual feedback.
 
-### Current Status
-Currently working on frontend with React + TypeScript, webcam integration, hand-landmark detection, and basic mudra recognition.
+> **Vision**
+>
+> The long-term vision is to create an interactive online dance-learning platform where instructors can upload choreography and students can practice independently while receiving corrections on posture, mudras (hand gestures), and movement accuracy.
+
+
+## 🚀 Planned Features
+- real-time mudra recognition with hand-tracking and visual feedback
+- guided lessons for Bharatanatyam Level Exams
+- quiz/flashcard style practice
+- choreography learning through instructor-uploaded videos with movement comparison and automatic correction
+- progress tracker with personalized feedback
 
 ---
 
-## Tech Stack
-- React, TypeScript, Vite
-- MediaPipe Hands, Canvas API
-- Node.js, Express, PostgreSQL
-- Vercel, Supabase
+## 🎯 Current Focus
+> - Webcam integration
+> - Hand landmark detection
+> - Basic mudra recognition
+---
+
+## ⚙️ Tech Stack
+| Category | Technologies |
+|-----------|-------------|
+| Frontend | React, TypeScript, Vite |
+| Computer Vision | MediaPipe Hands, Canvas API |
+| Backend | Node.js, Express, PostgreSQL |
+| Deployment | Vercel, Supabase |
 
 ---
 
-## Development Roadmap
+## 🗺️ Development Roadmap
+<details>
+<summary><b>View Project Phases Here:</b></summary>
 
-### Phase 1: Mudra Recognition MVP  -  ***In Progress***
+### Phase 1: Mudra Recognition MVP  -  🟨 Progress: 20%
 
 #### Camera System
 - [x] Access webcam feed
@@ -73,9 +94,25 @@ Currently working on frontend with React + TypeScript, webcam integration, hand-
 - [ ] Movement comparison
 - [ ] Real-time correction
 
+
+</details>
+
 ---
 
-## Proposed Project Structure
+## 📁 Proposed Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── data/
+├── utils/
+├── App.tsx
+└── main.tsx
+```
+<details>
+<summary><b>View Full Project Structure Here:</b></summary>
 
 ```text
 natya/
@@ -119,5 +156,6 @@ natya/
 ├── package.json
 └── README.md
 ```
+</details>
 
 ---
