@@ -17,11 +17,11 @@ As a Bharatanatyam dancer, I often found it difficult to learn choreography from
 
 
 ## 🚀 Planned Features
-- real-time mudra recognition with hand-tracking and visual feedback
-- guided lessons for Bharatanatyam Level Exams
-- quiz/flashcard style practice
-- choreography learning through instructor-uploaded videos with movement comparison and automatic correction
-- progress tracker with personalized feedback
+- Real-time mudra recognition with hand-tracking and visual feedback
+- Guided lessons for Bharatanatyam Level Exams
+- Quiz/flashcard style practice
+- Choreography learning through instructor-uploaded videos with movement comparison and automatic correction
+- Progress tracker with personalized feedback
 
 ---
 
